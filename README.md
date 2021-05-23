@@ -11,11 +11,11 @@ For this analysis we have a csv containing 34000 organizations that have receive
 
 ## Results 
 * Found IS_SUCCESSFUL to be the target variable as it is a binary classifier predicting whether the donation was successful or not
-* In initial deep learning model used all the features except identification columns, uses relu activation and two hidden layers and received a predictive accuracy of 72.5% percent and loss of 0.5538
+* In initial deep learning model used all the features except identification columns, uses relu activation and two hidden layers and received a predictive accuracy of 72.6% percent and loss of 0.5538
 * After exploring the data found that SPECIAL_CONSIDERATIONS and STATUS variables were categorically imbalanced and therefore were noisy and removed from the features
 * Second model reduces noisy features and neurons in hidden layers and yielded accuracy of 72.09% and model loss of 0.5658
 * Third model uses 4 hidden layers and changes activation function to sigmoid yielding accuracy of 72.29% and a model loss of 0.5619
-* Final model drastically increases bins for application type and government organization classification, uses four hidden layers of a much higher number of neurons with an activation function of relu yielding a 73.6% accuracy, highest among all models. 
+* Final model drastically increases bins for application type and government organization classification, uses four hidden layers of a much higher number of neurons with an activation function of relu yielding a 73.67 accuracy, highest among all models. 
 
 
 ## Data Preprocessing 
